@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WorkoutApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="test_home_fragment_text">This is the home page</string>
+    <string name="test_workout_fragment_text">This is the workout page</string>
+    <string name="test_tracking_fragment_text">This is the tracking page</string>
+    <string name="home_button">Home</string>
+    <string name="workout_button">Workout</string>
+    <string name="tracking_button">Tracking</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

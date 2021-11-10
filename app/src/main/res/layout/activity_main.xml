@@ -22,39 +22,55 @@
             android:id="@+id/activeView"
             android:name="com.patrickbanez.workoutapp.HomeFragment"
             android:layout_width="match_parent"
-            android:layout_height="681dp" />
+            android:layout_height="691dp" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <Button
+            <ImageButton
                 android:id="@+id/homeButton"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="132dp"
+                android:layout_width="102dp"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/home_button"
+                android:focusableInTouchMode="true"
                 android:onClick="swapFragment"
-                android:text="@string/home_button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home_fill"
                 tools:ignore="UsingOnClickInXml" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/workoutButton"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="149dp"
+                android:layout_width="107dp"
                 android:layout_height="wrap_content"
                 android:onClick="swapFragment"
-                android:text="@string/workout_button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/barbell_fill"
                 tools:ignore="UsingOnClickInXml" />
 
-            <Button
-                android:id="@+id/trackingButton"
+            <ImageButton
+                android:id="@+id/statisticsButton"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="128dp"
+                android:layout_width="81dp"
                 android:layout_height="wrap_content"
                 android:onClick="swapFragment"
-                android:text="@string/tracking_button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/analytics_fill"
                 tools:ignore="UsingOnClickInXml" />
+
+            <ImageButton
+                android:id="@+id/settingsButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:onClick="swapFragment"
+                tools:ignore="UsingOnClickInXml"
+                android:src="@drawable/settings" />
         </LinearLayout>
 
     </LinearLayout>

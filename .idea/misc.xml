@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_home.xml" value="0.2957427536231884" />
+        <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_s_e_t_t_i_n_g_s.xml" value="0.21875" />
+        <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_settings.xml" value="0.21875" />
+        <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_statistics.xml" value="0.2817028985507246" />
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_tracking.xml" value="0.2957427536231884" />
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_workout.xml" value="0.2957427536231884" />
       </map>

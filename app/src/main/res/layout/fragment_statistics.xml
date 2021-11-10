@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TrackingFragment">
+    tools:context=".StatisticsFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:layout_width="310dp"
-        android:layout_height="284dp"
-        android:text="@string/test_tracking_fragment_text"
+        android:layout_width="369dp"
+        android:layout_height="162dp"
+        android:text="@string/test_statistics_fragment_text"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

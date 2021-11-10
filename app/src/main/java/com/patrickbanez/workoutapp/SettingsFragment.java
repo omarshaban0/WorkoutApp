@@ -10,28 +10,22 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link WorkoutFragment#getInstance} factory method to
- * retrieve an instance of this fragment.
  */
-public class WorkoutFragment extends Fragment {
-    private static WorkoutFragment instance;
+public class SettingsFragment extends Fragment {
 
-    public WorkoutFragment() {
+    public SettingsFragment() {
         // Required empty public constructor
-        instance = this;
     }
 
-    public static WorkoutFragment getInstance() {
-        if(instance == null) {
-            instance = new WorkoutFragment();
-        }
-        return instance;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_workout, container, false);
+        return inflater.inflate(R.layout.fragment_settings, container, false);
     }
 }

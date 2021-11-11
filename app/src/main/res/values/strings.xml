@@ -9,5 +9,6 @@
     <string name="workout_button">Workout</string>
     <string name="statistics_button">Statistics</string>
     <string name="settings_button">Settings</string>
+    <string name="dark_mode">Dark mode</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

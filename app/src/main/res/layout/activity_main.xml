@@ -24,54 +24,68 @@
             android:layout_width="match_parent"
             android:layout_height="691dp" />
 
-        <LinearLayout
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/homeButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="102dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/home_button"
-                android:focusableInTouchMode="true"
-                android:onClick="swapFragment"
-                android:scaleType="fitCenter"
-                android:src="@drawable/home_fill"
-                tools:ignore="UsingOnClickInXml" />
+                android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/workoutButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="107dp"
-                android:layout_height="wrap_content"
-                android:onClick="swapFragment"
-                android:scaleType="fitCenter"
-                android:src="@drawable/barbell_fill"
-                tools:ignore="UsingOnClickInXml" />
+                <ImageButton
+                    android:id="@+id/homeButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/home_button"
+                    android:focusableInTouchMode="true"
+                    android:onClick="swapFragment"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/home_fill"
+                    tools:ignore="UsingOnClickInXml" />
 
-            <ImageButton
-                android:id="@+id/statisticsButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="81dp"
-                android:layout_height="wrap_content"
-                android:onClick="swapFragment"
-                android:scaleType="fitCenter"
-                android:src="@drawable/analytics_fill"
-                tools:ignore="UsingOnClickInXml" />
+                <ImageButton
+                    android:id="@+id/workoutButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="TODO"
+                    android:onClick="swapFragment"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/barbell_fill"
+                    tools:ignore="UsingOnClickInXml,SpeakableTextPresentCheck" />
 
-            <ImageButton
-                android:id="@+id/settingsButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:onClick="swapFragment"
-                tools:ignore="UsingOnClickInXml"
-                android:src="@drawable/settings" />
-        </LinearLayout>
+                <ImageButton
+                    android:id="@+id/statisticsButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="81dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="TODO"
+                    android:onClick="swapFragment"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/analytics_fill"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/settingsButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="TODO"
+                    android:onClick="swapFragment"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/settings"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dark_mode" />
+            </LinearLayout>
+        </androidx.recyclerview.widget.RecyclerView>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

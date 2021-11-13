@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/activity_create_user.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/activity_loading.xml" value="0.21875" />
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_home.xml" value="0.2957427536231884" />
+        <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_profile.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_s_e_t_t_i_n_g_s.xml" value="0.21875" />
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_settings.xml" value="0.21875" />
         <entry key="..\:/AndroidProjects/WorkoutApp/app/src/main/res/layout/fragment_statistics.xml" value="0.2817028985507246" />

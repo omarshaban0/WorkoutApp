@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Hiding the title bar. I'll add it again when I can figure out how to resize it using XML file -- It's huge default
-        getSupportActionBar().hide();
+        setTitle(tabNames[0]);
     }
 
     public void swapFragment(View v) {

@@ -9,5 +9,56 @@
     <string name="workout_button">Workout</string>
     <string name="statistics_button">Statistics</string>
     <string name="settings_button">Settings</string>
+    <string name="first_name_text">First Name:</string>
+    <string name="last_name_text">Last Name:</string>
+    <string name="email_text">Email:</string>
+    <string name="age_text">Age:</string>
+    <string name="height_text">Height:</string>
+    <string name="weight_text">Weight:</string>
+    <string name="default_first_name_text">
+        <font size="14">
+            John (required)
+        </font>
+    </string>
+    <string name="default_last_name_text">
+        <font size="14">
+            Doe (required)
+        </font>
+    </string>
+    <string name="default_email_text">
+        <font size="14">
+            JDoe@Gmail.com (required)
+        </font>
+    </string>
+    <string name="goals_text">
+        What is your fitness goal?
+    </string>
+    <string name="weight_loss_text">Weight Loss</string>
+    <string name="muscle_building_text">Muscle Building</string>
+    <string name="strength_building_text">Strength Building</string>
+    <string name="maintenance_text">Maintenance</string>
+    <string name="create_button_text">Create</string>
+    <string name="default_optional_text">
+        <font size="14">
+            (optional)
+        </font>
+    </string>
+    <string name="default_feet_optional_text">
+        <font size="14">
+            ft (optional)
+        </font>
+    </string>
+    <string name="default_inch_optional_text">
+        <font size="14">
+            in (optional)
+        </font>
+    </string>
+    <string name="radio_weight_text">
+        <font size="14">
+            lbs (optional)
+        </font>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
